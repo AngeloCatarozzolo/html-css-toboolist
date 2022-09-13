@@ -54,7 +54,9 @@ button{
 }
 h3{
     display: inline-block;
+    padding: 5px;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
