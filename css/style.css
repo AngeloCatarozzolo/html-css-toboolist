@@ -35,8 +35,58 @@ button{
     color: gray;
     border-color: gray;
 }
+.circle{
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
+}
+.circle-check{
+        color: green;
+        border-color: green;
+}
+.circle-cross{
+        color: red;
+        border-color: red;
+}
+h3{
+    display: inline-block;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.tag{
+    border: 0px;
+    padding: 6px 10px;
+    display: inline-block;
+    border-radius: 15%;
+}
+#editatorial{
+    background-color: #45ABEA;
+    color: white;
+}
+#q1{
+    background-color: #9C72E4;
+    color: white;
+}
+#recruiting{
+    background-color: #64C0A9;
+    color: white;
+}
+#mobile{
+    background-color: #F29E33;
+    color: white;
+}
+#website{
+    background-color: #B0C926;
+    color: white ;
+}
+#sales{
+    background-color: #D863A1;
+    color: white;
 }
